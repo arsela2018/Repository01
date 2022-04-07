@@ -27,6 +27,7 @@ Pass the _mobile-number_ and _message_ to be sent to the hook and it'll open a n
 That's it!
 
 _Note:_ _The_ _mobile_ _number_ _should_ _contain_ _the_ _country_ _code_ _as_ _well_.
+_eg:_ _If_ _the_ _number_ _is_ _from_ _India:_ +91 XXXXX XXXXX
 
 ## Demo 
 
