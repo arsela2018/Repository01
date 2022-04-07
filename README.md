@@ -37,13 +37,14 @@ _eg:_ _If_ _the_ _number_ _is_ _from_ _India:_ +91 XXXXX XXXXX
 
 ```javascript
 import React from 'react';
-import { useWhatsapp } from 'react-whatsapp-hook';
+import { useWhatsapp as UseWhatsapp } from 'react-whatsapp-hook'
+
 const App = () => {
   
     // Arbitrary function for submit
     const onSubmit = () => {
         // Pass values to the hook
-        useWhatsapp(message, mobileNumber)
+        UseWhatsapp(message, mobileNumber)
     }
 
     return (
@@ -63,7 +64,7 @@ Ex: Send a Whatsapp message to the specified number.
 
 ```javascript
 import React, { useState } from 'react';
-import { useWhatsapp } from 'react-whatsapp-hook';
+import { useWhatsapp as UseWhatsapp } from 'react-whatsapp-hook'
 
 const App = () => {
     
@@ -84,7 +85,7 @@ const App = () => {
     // Submit function
     const onSubmit = () => {
         // Pass the values to the hook
-        useWhatsapp(message, mobileNumber)
+        UseWhatsapp(message, mobileNumber)
     }
 
     return (
