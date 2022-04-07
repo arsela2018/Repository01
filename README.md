@@ -1,29 +1,22 @@
-# React Whatsapp Hook
+# React Whatsapp Component
 
 [![NPM version](https://img.shields.io/npm/v/react-whatsapp-hook.svg?style=flat)](https://www.npmjs.com/package/react-whatsapp-hook)
 ![NPM license](https://img.shields.io/npm/l/react-whatsapp-hook.svg?style=flat)
 
-A very simple react hook to send Whatsapp messages directly from your React app.
+A very simple react component to send Whatsapp messages directly from your React app.
 
 ## Installation
 
 ```
-npm i react-whatsapp-hook
+npm i react-whatsapp-component
 // OR
-yarn add react-whatsapp-hook
-```
-
-## Local demo
-
-```
-git clone https://github.com/aunshx/whatsapp-messages-react
-npm install && npm run start
+yarn add react-whatsapp-component
 ```
 
 ## Working
 
-Import the _useWhatsapp_ hook from 'react-whatsapp-hook'.
-Pass the _mobile-number_ and _message_ to be sent to the hook and it'll open a new browser tab with the chat of the person to whom the number entered belongs to and the message you want to send.
+Import the _UseWhatsapp_ component from 'react-whatsapp-component'.
+Pass the _mobile-number_ and _message_ to be sent to the component and it'll open a new browser tab with the chat of the person to whom the number entered belongs to and the message you want to send.
 That's it!
 
 _Note:_ _The_ _mobile_ _number_ _should_ _contain_ _the_ _country_ _code_ _as_ _well_.
@@ -37,13 +30,13 @@ _eg:_ _If_ _the_ _number_ _is_ _from_ _India:_ +91 XXXXX XXXXX
 
 ```javascript
 import React from 'react';
-import { useWhatsapp as UseWhatsapp } from 'react-whatsapp-hook'
+import UseWhatsapp from 'react-whatsapp-component'
 
 const App = () => {
   
     // Arbitrary function for submit
     const onSubmit = () => {
-        // Pass values to the hook
+        // Pass values to the component
         UseWhatsapp(message, mobileNumber)
     }
 
@@ -58,13 +51,13 @@ export default App;
 
 ## Examples
 
-An example of the usefulness of the hook is given below.
+An example of the usefulness of the component is given below.
 
 Ex: Send a Whatsapp message to the specified number.
 
 ```javascript
 import React, { useState } from 'react';
-import { useWhatsapp as UseWhatsapp } from 'react-whatsapp-hook'
+import UseWhatsapp from 'react-whatsapp-component'
 
 const App = () => {
     
@@ -84,7 +77,7 @@ const App = () => {
 
     // Submit function
     const onSubmit = () => {
-        // Pass the values to the hook
+        // Pass the values to the component
         UseWhatsapp(message, mobileNumber)
     }
 
@@ -109,4 +102,4 @@ export default App;
 
 ## License
 
-_react-whatsapp-hook_ is available under the MIT License.
+_react-whatsapp-component_ is available under the MIT License.
