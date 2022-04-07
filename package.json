@@ -1,0 +1,27 @@
+{
+  "name": "react-whatsapp-hook",
+  "version": "1.0.0",
+  "description": "A very simple hook for sending Whatsapp messages directly from your React app.",
+  "main": "useWhatsapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aunshx/react-whatsapp-hook.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "react",
+    "hook",
+    "easy",
+    "JS",
+    "node"
+  ],
+  "author": "aunsh.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aunshx/react-whatsapp-hook/issues"
+  },
+  "homepage": "https://github.com/aunshx/react-whatsapp-hook#readme"
+}
