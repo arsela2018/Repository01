@@ -1,25 +1,25 @@
-# React Whatsapp Component
+# Whatsapp React Component
 
-[![NPM version](https://img.shields.io/npm/v/react-whatsapp-hook.svg?style=flat)](https://www.npmjs.com/package/react-whatsapp-hook)
-![NPM license](https://img.shields.io/npm/l/react-whatsapp-hook.svg?style=flat)
+[![NPM version](https://img.shields.io/npm/v/whatsapp-react-component.svg?style=flat)](https://www.npmjs.com/package/whatsapp-react-component)
+![NPM license](https://img.shields.io/npm/l/whatsapp-react-component.svg?style=flat)
 
 A very simple react component to send Whatsapp messages directly from your React app.
 
 ## Installation
 
 ```
-npm i react-whatsapp-component
+npm i whatsapp-react-component
 // OR
-yarn add react-whatsapp-component
+yarn add whatsapp-react-component
 ```
 
 ## Working
 
-Import the _UseWhatsapp_ component from 'react-whatsapp-component'.
+Import the _UseWhatsapp_ component from 'whatsapp-react-component'.
 Pass the _mobile-number_ and _message_ to be sent to the component and it'll open a new browser tab with the chat of the person to whom the number entered belongs to and the message you want to send.
 That's it!
 
-_Note:_ _The_ _mobile_ _number_ _should_ _contain_ _the_ _country_ _code_ _as_ _well_.
+_Note:_ _The_ _mobile_ _number_ _should_ _contain_ _the_ _country_ _code_ _as_ _well_.\
 _eg:_ _If_ _the_ _number_ _is_ _from_ _India:_ +91 XXXXX XXXXX
 
 ## Demo 
@@ -30,7 +30,7 @@ _eg:_ _If_ _the_ _number_ _is_ _from_ _India:_ +91 XXXXX XXXXX
 
 ```javascript
 import React from 'react';
-import UseWhatsapp from 'react-whatsapp-component'
+import UseWhatsapp from 'whatsapp-react-component'
 
 const App = () => {
   
@@ -57,7 +57,7 @@ Ex: Send a Whatsapp message to the specified number.
 
 ```javascript
 import React, { useState } from 'react';
-import UseWhatsapp from 'react-whatsapp-component'
+import UseWhatsapp from 'whatsapp-react-component'
 
 const App = () => {
     
@@ -102,4 +102,4 @@ export default App;
 
 ## License
 
-_react-whatsapp-component_ is available under the MIT License.
+_whatsapp-react-component_ is available under the MIT License.

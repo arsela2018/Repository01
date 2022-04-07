@@ -1,5 +1,5 @@
 {
-  "name": "react-whatsapp-component",
+  "name": "whatsapp-react-component",
   "version": "1.0.0",
   "description": "A very simple component for sending Whatsapp messages directly from your React app.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aunshx/react-whatsapp-hook.git"
+    "url": "git+https://github.com/aunshx/whatsapp-react-component.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,7 +21,7 @@
   "author": "aunsh.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aunshx/react-whatsapp-hook/issues"
+    "url": "https://github.com/aunshx/whatsapp-react-component/issues"
   },
   "homepage": "https://whatsapp-react-messages.herokuapp.com/"
 }
