@@ -1,4 +1,4 @@
-export const useWhatsapp = (number, message) => {
+export const useWhatsapp = (mobileNumber, message) => {
 
       let number = mobileNumber.replace(/[^\w\s]/gi, "").replace(/ /g, "")
 
