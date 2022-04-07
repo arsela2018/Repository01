@@ -1,5 +1,5 @@
 
-const useWhatsapp = (mobileNumber, message) => {
+export default function UseWhatsapp (mobileNumber, message) {
   let number = mobileNumber.replace(/[^\w\s]/gi, "").replace(/ /g, "");
 
   let url = `https://web.whatsapp.com/send?phone=${number}`;
@@ -9,6 +9,3 @@ const useWhatsapp = (mobileNumber, message) => {
   window.open(url);
 };
 
-module.exports = {
-  useWhatsapp,
-};
