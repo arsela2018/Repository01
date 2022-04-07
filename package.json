@@ -1,6 +1,6 @@
 {
   "name": "react-whatsapp-component",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A very simple hook for sending Whatsapp messages directly from your React app.",
   "main": "useWhatsapp.js",
   "scripts": {
