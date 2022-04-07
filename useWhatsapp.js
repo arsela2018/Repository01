@@ -1,4 +1,4 @@
-export const useWhatsapp = (mobileNumber, message) => {
+const useWhatsapp = (mobileNumber, message) => {
 
       let number = mobileNumber.replace(/[^\w\s]/gi, "").replace(/ /g, "")
 
@@ -7,5 +7,9 @@ export const useWhatsapp = (mobileNumber, message) => {
       url += `&text=${encodeURI(message)}&app_absent=0`
 
       window.open(url)
+}
+
+module.exports = {
+  useWhatsapp
 }
 
