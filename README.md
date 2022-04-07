@@ -1,7 +1,7 @@
 # React Whatsapp Hook
 
 [![NPM version](https://img.shields.io/npm/v/react-whatsapp-hook.svg?style=flat)](https://www.npmjs.com/package/react-whatsapp-hook)
-![NPM license](https://img.shields.io/npm/l/react-whatsapp-hook-simple.svg?style=flat)
+![NPM license](https://img.shields.io/npm/l/react-whatsapp-hook.svg?style=flat)
 
 A very simple react hook to send Whatsapp messages directly from your React app.
 
