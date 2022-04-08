@@ -37,7 +37,7 @@ const App = () => {
     // Arbitrary function for submit
     const onSubmit = () => {
         // Pass values to the component
-        UseWhatsapp(message, mobileNumber)
+        UseWhatsapp(mobileNumber, number)
     }
 
     return (
@@ -78,7 +78,7 @@ const App = () => {
     // Submit function
     const onSubmit = () => {
         // Pass the values to the component
-        UseWhatsapp(message, mobileNumber)
+        UseWhatsapp(mobileNumber, number)
     }
 
     return (
